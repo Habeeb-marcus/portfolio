@@ -1,0 +1,40 @@
+.d-flex {
+    display: flex;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-cont {
+    background: #1b1b2b;
+    color: #fff;
+}
+
+.navbar-main {
+    justify-content: space-between;
+    padding: 20px 0;
+    max-width: 1240px;
+    width: 1240px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #fff;
+ 
+}
+
+.menu ul li{
+    list-style: none;
+    display: flex;
+    margin-right: 12px;
+}
+
+.menu-ul .resume a{
+    color: #fff;
+    padding: 10px;
+    border: 1px solid #fff;
+    text-decoration: none;
+
+}
