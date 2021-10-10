@@ -1,22 +1,17 @@
 import React from 'react'
 import "./Landing.css"
-import Navbar from '../Navbar/Navbar'
 
 function Landing() {
     return (
         <div className="landing-cont">
-            <Navbar/>
-            <main>
-
-            </main>
-            <aside>
-                <ul>
-                    <a href="/"><i className="fab fa-github"></i></a>
-                    <a href="/"><i className="fab fa-linkedin"></i></a>
-                    <a href="/"><i className="fab fa-instagram"></i></a>
-                    <a href="/"><i className="fab fa-twitter"></i></a>
-                </ul>
-            </aside>
+            
+            <div className="landing-text">
+                <h2>Hello,I am</h2>
+                <h1>Habeeb Makusota</h1>
+                <p>A software engineer based in Lagos, Nigeria who is focused in building awesome website</p>
+                <a href="/" className="button"> Say Hello <i className="fas fa-arrow-right"></i></a>
+            </div>
+           
         </div>
     )
 }

@@ -1,0 +1,37 @@
+.landing-cont {
+    height: 100vh;
+    background: #1b1b2b;
+    position: relative;
+    background: url(../../images/hero-bg.png) #1b1b2b no-repeat;
+    background-position-x: right;
+    color: #fff;
+}
+
+.landing-text {
+    padding-left: 5rem;
+    position: absolute;
+    top: 40%;
+}
+
+.landing-text h2 {
+    font-size: 45px;
+}
+
+.landing-text h1 {
+    font-size: 65px;
+    margin-bottom: 30px;
+}
+
+.landing-text p {
+    width: 31rem;
+    color: #a9a7eb;
+    margin-bottom: 2rem;
+}
+
+
+.button{
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 10px 30px;
+    text-decoration: none;
+}

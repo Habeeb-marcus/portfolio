@@ -4,3 +4,27 @@
   box-sizing: border-box;
   font-family: ;
 }
+
+aside ul{
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  justify-content: center;
+  height: 100%;
+  background: #1b1b2b;
+  width: 5rem;
+  align-items: center;
+}
+
+aside ul a {
+  color: white;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+}
+
+
+main {
+  width: calc(100% - 5rem);
+  position: absolute;
+  right: 0;
+}
