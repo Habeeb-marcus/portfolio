@@ -1,0 +1,51 @@
+.about-cnt {
+    display: flex;
+    padding: 0rem 3rem 0;
+    /* background: #1b1b2b; */
+    color: #fff;
+}
+
+.about-cnt p {
+     width: 37rem;
+    margin-right: 12rem;
+    line-height: 25px;
+}
+
+
+.img-me {
+    border: 1px solid #6b50c3;
+    width: 24rem;
+    position: relative;
+    height: 16rem;
+    border-radius: 10px;
+}
+
+.img-me img {
+    height: 16rem;
+    left: 18px;
+    position: absolute;
+    top: -17px;
+    width: 24rem;
+    border-radius: 8px;
+}
+
+.my-stack {
+    color: #fff;
+}
+
+.small-line::before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 10px;
+    background: #d9d1f8;
+    left: 5px;
+}
+
+.small-line::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 10px;
+    background: #d9d1f8;
+}

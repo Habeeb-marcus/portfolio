@@ -2,6 +2,7 @@ import React from 'react'
 import Landing from './components/LandingPage/Landing';
 import Navbar from './components/Navbar/Navbar';
 import './App.css';
+import About from './components/about/About';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <main>
         <Navbar/>
         <Landing/>
+        <About/>
       </main>
         <aside>
           <ul>

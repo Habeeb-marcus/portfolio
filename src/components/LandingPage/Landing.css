@@ -5,16 +5,17 @@
     background: url(../../images/hero-bg.png) #1b1b2b no-repeat;
     background-position-x: right;
     color: #fff;
+    background-size: 41rem;
 }
 
 .landing-text {
     padding-left: 5rem;
     position: absolute;
-    top: 40%;
+    top: 30%;
 }
 
 .landing-text h2 {
-    font-size: 45px;
+    font-size: 1.3rem;
 }
 
 .landing-text h1 {
