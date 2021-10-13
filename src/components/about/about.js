@@ -1,6 +1,10 @@
 import React from 'react'
 import "./About.css"
 import habeeb from "../../images/hab3.png"
+import css from "../../images/css3.svg"
+import html from "../../images/html5.svg"
+import react from "../../images/react.svg"
+import javascript from "../../images/javascript.svg"
 
 function About() {
 
@@ -18,7 +22,7 @@ function About() {
                 </p>
 
                 <div className="img-me">
-                    <img src={habeeb} alt="profile image"/>
+                    <img src={habeeb} alt="profile"/>
                 </div>
 
 
@@ -26,6 +30,30 @@ function About() {
 
             <div className="my-stack">
                 <p>My technology stack:</p>
+
+                <div className="stack-icon">
+
+                  <div className="icon-bar">
+                    <img src={html} alt="html" />
+                    <span>HTML</span>
+                  </div>
+
+                  <div className="icon-bar">
+                    <img src={css} alt="CSS" />
+                    <span>CSS</span>
+                  </div>
+
+                  <div className="icon-bar">
+                    <img src={javascript} alt="javascript" />
+                    <span>Javascript</span>
+                  </div>
+                  
+                  <div className="icon-bar">
+                    <img src={react} alt="react" />
+                    <span>React</span>
+                  </div>
+                  
+                </div>
             </div>
         </div>
     )

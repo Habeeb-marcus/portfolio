@@ -31,21 +31,88 @@
 
 .my-stack {
     color: #fff;
+    padding: 0 48px;
+}
+
+.small-line {
+    position: relative;
+
 }
 
 .small-line::before {
     content: "";
     position: absolute;
     height: 2px;
-    width: 10px;
+    width: 50px;
     background: #d9d1f8;
-    left: 5px;
+    left: 12px;
+    top: -4px;
 }
 
 .small-line::after {
     content: "";
     position: absolute;
     height: 2px;
-    width: 10px;
+    width: 50px;
     background: #d9d1f8;
+    top: 8px;
+}
+
+.top-icons {
+   display: flex;
+   margin-bottom: 3rem;
+   padding-left: 3rem;
+   align-items: center;
+}
+
+.top-icons h3 {
+   display: inline-block;
+    margin-left: 79px;
+   color: #fff;
+   font-size: 1.7rem;
+}
+
+.long-line {
+    height: 2px;
+    width: 27rem;
+    background: #d9d1f8;
+    position: absolute;
+    left: 17rem;
+}
+
+.long-line::after {
+    border-radius: 50%;
+    content: '';
+    position: absolute;
+    height: 7px;
+    border: 2px solid #b0aff6;
+    width: 7px;
+    right: -11px;
+    top: -5px;
+}
+
+.stack-icon{
+    display: flex;
+    margin-top: 23px;
+}
+
+
+.icon-bar {
+    border-radius: 24px;
+    margin-right: 15px;
+    width: 10rem;
+    background-color: #b0aff629;
+    padding: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-bar img {
+    height: 1.8rem;
+    margin-right: 11px;
+}
+
+.icon-bar span {
+    font-size: 13px;
 }
