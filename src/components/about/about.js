@@ -9,7 +9,7 @@ import javascript from "../../images/javascript.svg"
 function About() {
 
     return (
-        <div>
+        <div className="about-main">
             <div className="top-icons">
                 <span className="small-line"></span>
                 <h3>About Me</h3>

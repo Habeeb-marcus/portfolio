@@ -1,0 +1,72 @@
+.container {
+     padding: 6rem 3.2rem;
+     border-top: 1px solid #d9d1f8;
+     margin-right: 5rem;
+     display: flex;
+     justify-content: space-between;
+     padding-top: 5rem;
+}
+
+.container img {
+    height: 20rem;
+    border-radius: 10px;
+}
+
+.title {
+    color: #fff;
+    font-size: 28px;
+    align-items: center;
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.project-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.project-description p {
+    width: 33rem;
+    color: #a8a6e9;
+}
+
+
+.title span {
+    background: #6b50c3;
+    border-radius: 12px;
+    padding: 3px;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.view-cont {
+    margin-top: 50px;
+}
+
+.view-btn {
+    text-decoration: none;
+    font-size: 18px;
+    padding: 11px 25px;
+    border-radius: 21px;
+}
+
+.preview {
+    background: #6b50c3;
+    margin-right: 15px;
+    color: #fff;
+}
+
+.preview:hover {
+    filter: brightness(120%);
+}
+
+.visit {
+    border: 1px solid #6b50c3;
+    color: #6b50c3;
+}
+
+.visit:hover {
+    background: #6b50c3;
+    color: #fff;
+}
