@@ -7,7 +7,7 @@ import Portfolio from './components/Portfolio/Portfolio';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" id="app">
        
       {/* <div className="body-cont"> */}
       <main>

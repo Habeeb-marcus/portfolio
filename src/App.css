@@ -5,6 +5,10 @@
   /* font-family: Georgia, 'Times New Roman', Times, serif ; */
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 aside ul{
   display: flex;
   flex-direction: column;

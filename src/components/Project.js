@@ -2,10 +2,12 @@ import React from 'react';
 import './Project.css'
 
 
+
 function Project(props) {
+
     return (
 
-        <div className="container">
+        <div className="container" data-aos="fade down">
 
             <img src={props.image} alt="phone web" />
 
