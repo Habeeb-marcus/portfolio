@@ -4,6 +4,7 @@ import Navbar from './components/Navbar/Navbar';
 import './App.css';
 import About from './components/about/About';
 import Portfolio from './components/Portfolio/Portfolio';
+import Contact from './components/contact/Contact';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Landing/>
         <About/>
         <Portfolio/>
+        <Contact/>
       </main>
         <aside>
           <ul>
