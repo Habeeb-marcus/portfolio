@@ -36,3 +36,18 @@
     padding: 10px 30px;
     text-decoration: none;
 }
+
+@media (max-width:1300px) {
+    .landing-text{
+        width: min-content;
+    }
+}
+@media (max-width:1200px) {
+    .landing-text{
+        width: max-content;
+    }
+
+    .landing-cont {
+        background-size: 25rem;
+    }
+}
