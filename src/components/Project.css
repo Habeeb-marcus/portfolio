@@ -1,10 +1,9 @@
 .container {
-     padding: 6rem 3.2rem;
-     border-top: 1px solid #d9d1f8;
-     margin-right: 5rem;
-     display: flex;
-     justify-content: space-between;
-     padding-top: 5rem;
+      padding: 6rem 0 6rem 2rem;
+      border-top: 1px solid #d9d1f8;
+      display: flex;
+      justify-content: space-between;
+      padding-top: 5rem;
 }
 
 .container img {
@@ -24,10 +23,10 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-left: 30px;
 }
 
 .project-description p {
-    width: 33rem;
     color: #a8a6e9;
 }
 

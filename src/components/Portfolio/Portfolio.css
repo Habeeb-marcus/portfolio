@@ -1,0 +1,21 @@
+.projects-cont {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.projects {
+       max-height: 60rem;
+       overflow: hidden;
+       transition: max-height 0.7s;
+}
+
+.projects.open {
+    max-height: 130rem;
+    transition: max-height 0.7s;
+}
+
+button:hover {
+    background: #6b50c3;
+    color: #fff;
+}

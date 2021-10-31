@@ -28,7 +28,40 @@ aside ul a {
 
 
 main {
-  width: calc(100% - 5rem);
+  /* width: calc(100% - 5rem); */
+  width: 100%;
   position: absolute;
   right: 0;
+  padding: 0 90px;
+}
+
+@media (max-width:1200px) {
+
+  .container {
+    margin-right: 2rem;
+  }
+  .container img {
+        height: 14rem;
+  }
+
+  .main {
+    padding: 0;
+    padding-left: 90px;
+  }
+}
+
+@media (max-width:900px) {
+  .bars {
+    display: block;
+    opacity: 1;
+    transition: opacity 0.7s;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .container {
+    flex-direction: column;
+  }
 }

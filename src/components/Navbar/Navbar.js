@@ -25,6 +25,10 @@ function Navbar() {
                         <div className="resume" data-aos="fade down" data-aos-delay="400" data-aos-easing="ease-in-out"><a href="/">Download Resume</a></div>
                     </ul>
                 </div>
+
+                <div className="bars">
+                    <i className="fas fa-bars"></i>
+                </div>
             </div>
         </nav>
     )
