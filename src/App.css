@@ -28,11 +28,10 @@ aside ul a {
 
 
 main {
-  /* width: calc(100% - 5rem); */
   width: 100%;
   position: absolute;
   right: 0;
-  padding: 0 90px;
+  padding: 0 30px 0 90px;
 }
 
 @media (max-width:1200px) {
@@ -50,6 +49,12 @@ main {
   }
 }
 
+@media (max-width: 1100px) {
+  .landing-text {
+    width: 23rem;
+  }
+}
+
 @media (max-width:900px) {
   .bars {
     display: block;
@@ -63,5 +68,24 @@ main {
 
   .container {
     flex-direction: column;
+  }
+}
+
+@media (max-width: 800px) {
+  .landing-cont{
+    background-size: 17rem;
+  }
+
+  .landing-text {
+    padding-left: 15px;
+    width: 23rem;
+  }
+
+  .landing-text h1 {
+    font-size: 35px;
+  }
+
+  .landing-text p {
+        width: 18rem;
   }
 }

@@ -1,17 +1,35 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState} from 'react'
 import "./Navbar.css"
 import AOS from 'aos'
 import 'aos/dist/aos.css';
 
-function Navbar() {
 
-     useEffect(() => {
+
+function Navbar() {
+       useEffect(() => {
         AOS.init({ duration: 3000});
         // 
     }, []);
 
+
+     const [Nav, setNav] = useState(false);
+
+     const showNav = () =>{
+        if(window.scrollY >= 200) {
+            setNav(true)
+            console.log('it is scrolling');
+        } else {
+            setNav(false)
+        }
+    }
+
+
+
+    window.addEventListener("scroll", showNav)
+
     return (
-        <nav className="navbar-cont flex-center">
+        <nav className={Nav ? "navbar-cont show flex-center" : "navbar-cont flex-center" }>
+        {/* // <nav className= "navbar-cont flex-center" > */}
             <div className="navbar-main d-flex">
                 <h2 className="name">
                    <a href="#app" >Habeeb Makusota</a> 

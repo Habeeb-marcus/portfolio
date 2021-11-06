@@ -122,3 +122,14 @@
 .icon-bar span {
     font-size: 13px;
 }
+
+@media (max-width: 800px) {
+    .about-cnt {
+        flex-direction: column-reverse;
+    }
+
+    .about-cnt p {
+        margin-top: 3rem;
+        /* margin-right: 0; */
+    }
+}

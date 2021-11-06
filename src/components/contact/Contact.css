@@ -1,5 +1,5 @@
 .contact-body{
-    padding-left: 55px;
+    /* padding-left: 55px; */
 }
 
 .contact-main{
@@ -7,7 +7,7 @@
     padding-left: 55px;
     background-repeat: no-repeat;
     background-position: right;
-    background-size: 33rem;
+    background-size: 30rem;
     background-position-y: 2rem;
     margin: 5rem auto;
 }
@@ -38,15 +38,25 @@ input {
     height: 2.5rem;
     border-radius: 2rem;
     border: none;
+    background: #33334c;
     padding: 5px 20px;
-    width: 32rem;
+    width: 30rem;
+    color:#505065;
 }
+
+input::placeholder {
+     color: #505065;
+}
+
 
 textarea {
     padding: 1rem;
-    width: 32rem;
+    width: 30rem;
     border-radius: 1.3rem;
     margin-top: 0.7rem;
+    height: 8rem;
+    background: #33334c;
+    border: none;
 }
 
 .long-line {
@@ -69,4 +79,27 @@ button {
 
 .about-main {
     padding-bottom: 12.4rem;
+}
+
+@media (max-width: 1200px) {
+    .contact-main {
+        background-size: 24rem;
+        /* background-position-x: 39rem; */
+
+    }
+
+    .contact-body p {
+        width: 30rem;
+    }
+}
+
+@media (max-width: 1000px) {
+    .contact-main {
+        background-size: 15 rem;
+    }
+}
+@media (max-width: 800px) {
+    .contact-main {
+        background: none;
+    }
 }

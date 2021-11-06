@@ -6,6 +6,7 @@
 
 .projects {
        max-height: 60rem;
+        /* max-height: 50rem; */
        overflow: hidden;
        transition: max-height 0.7s;
 }
@@ -18,4 +19,15 @@
 button:hover {
     background: #6b50c3;
     color: #fff;
+}
+
+@media (max-width: 1200px) {
+    .projects {
+        max-height: 50rem;
+    }
+}
+@media (max-width: 800px) {
+    .projects {
+        max-height: 77rem;
+    }
 }
