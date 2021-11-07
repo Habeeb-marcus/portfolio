@@ -24,6 +24,7 @@
     position: relative;
     height: 16rem;
     border-radius: 10px;
+    margin-right: 3rem;
 }
 
 .img-me img {
@@ -83,7 +84,8 @@
     width: 27rem;
     background: #d9d1f8;
     position: absolute;
-    left: 17rem;
+    /* left: 17rem; */
+    left: 26rem;
 }
 
 .long-line::after {
@@ -93,8 +95,8 @@
     height: 7px;
     border: 2px solid #b0aff6;
     width: 7px;
-    right: -11px;
-    top: -5px;
+    right: -7px;
+    top: -2.7px;
 }
 
 .stack-icon{
@@ -123,6 +125,23 @@
     font-size: 13px;
 }
 
+@media (max-width: 1200px) {
+    .img-me img {
+        height: 13rem;
+        width: 19rem;
+    }
+
+    .img-me {
+        height: 13rem;
+        width: 19rem;
+    }
+
+    .about-cnt p {
+        width: 29rem;
+        margin-right: 5rem;
+    }
+}
+
 @media (max-width: 800px) {
     .about-cnt {
         flex-direction: column-reverse;
@@ -131,5 +150,10 @@
     .about-cnt p {
         margin-top: 3rem;
         /* margin-right: 0; */
+    }
+
+    .long-line {
+        left: 22rem;
+        width: 9rem;
     }
 }
