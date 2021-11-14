@@ -9,7 +9,7 @@ function Project(props) {
 
         <div className="container" data-aos="fade down">
            
-                <img  src={props.image} alt="phone web" />
+                <img  src={props.image} alt="phone web" className="pro-img" />
 
                 <div className="project-description">
                     <h3 className="title">{props.title}<span>2021</span></h3>

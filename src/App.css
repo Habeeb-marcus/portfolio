@@ -32,6 +32,12 @@ main {
   position: absolute;
   right: 0;
   padding: 0 30px 0 90px;
+  overflow: hidden;
+}
+
+.stack-icon {
+      flex-wrap: wrap;
+      row-gap: 14px;
 }
 
 @media (max-width:1200px) {
@@ -69,6 +75,15 @@ main {
   .container {
     flex-direction: column;
   }
+
+  .long-line.contact {
+        width: 17rem !important;
+            left: 25rem;
+  }
+
+  .long-line.about{
+        left: 22rem;
+  }
 }
 
 @media (max-width: 800px) {
@@ -88,4 +103,137 @@ main {
   .landing-text p {
         width: 18rem;
   }
+
+  aside {
+    display: none;
+  }
+
+  main {
+    padding: 0 30px;
+    
+  }
+
+  .my-stack {
+        padding: 0 48px;
+  }
+
 }
+
+
+@media (max-width: 600px) {
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-body {
+    padding-left: 0;
+        padding: 0 30px;
+
+  }
+
+  .stack-icon {
+        /* width: 28rem; */
+            width: 22rem;
+                margin-left: 14px;
+
+
+  }
+
+  .about-cnt {
+    padding: 0 2rem 0;
+  }
+
+  .about-cnt p{
+      width: 24rem;
+      font-size: .9rem;
+    }
+
+    .about-main {
+      padding-bottom: 9rem;
+          padding-left: 0;
+    }
+
+    .container {
+          padding: 6rem 0;
+          margin-right: 0rem;
+
+    }
+
+    /* .pro-img {
+          height: 13rem;
+          width: 21rem;
+    } */
+
+    .contact-body p {
+      /* width: 22rem; */
+      width: 19rem;
+      font-size: 1rem;
+    }
+
+    .long-line {
+      left: 14rem;
+      width: 4rem;
+    }
+
+    .top-icons h3 {
+      font-size: 1.5rem;
+    }
+
+    /* .long-line {
+      left: 18px;
+    } */
+
+    main {
+      padding: 0;
+      position: relative;
+    }
+
+
+    .my-stack{
+    
+           align-items: center;
+           display: flex;
+           flex-direction: column;
+      }
+
+      .top-icons {
+        padding-left: 1rem;
+      }
+
+      .landing-text {
+            margin-top: 60px;
+                margin-left: 21px;
+
+      }
+
+      .landing-cont {
+            height: 80vh;
+
+      }
+        .about-cnt p {
+          width: 19rem !important;
+
+        }
+
+  }
+
+
+  @media (max-width: 400px) {
+  
+    .long-line.about {
+      left: 13rem;
+    }
+
+    .img-me img {
+      height: 11rem;
+      width: 15rem;
+    }
+
+    .img-me {
+          height: 11rem;
+          width: 14rem;
+    }
+
+  }

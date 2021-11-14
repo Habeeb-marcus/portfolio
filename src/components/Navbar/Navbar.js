@@ -39,7 +39,7 @@ function Navbar() {
                     <ul className=" menu-ul d-flex" >
                         <li data-aos="fade down" data-aos-delay="100"  data-aos-easing="ease-in-out"><a href="#about-me">About Me</a></li>
                         <li data-aos="fade down" data-aos-delay="200"  data-aos-easing="ease-in-out"><a href="#projects">Projects</a></li>
-                        <li data-aos="fade down" data-aos-delay="300" data-aos-easing="ease-in-out"><a href="/">Contact Me</a></li>
+                        <li data-aos="fade down" data-aos-delay="300" data-aos-easing="ease-in-out"><a href="#contact-main">Contact Me</a></li>
                         <div className="resume" data-aos="fade down" data-aos-delay="400" data-aos-easing="ease-in-out"><a href="/">Download Resume</a></div>
                     </ul>
                 </div>

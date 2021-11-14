@@ -26,8 +26,35 @@ button:hover {
         max-height: 50rem;
     }
 }
-@media (max-width: 800px) {
+/* @media (max-width: 800px) {
+
+
+     .project.open {
+         max-height: 188rem !important;
+     }
+} */
+
+@media (max-width:900px) {
+
+      .projects {
+          max-height: 90rem !important;
+      }
+
+      .projects.open {
+          max-height: 188rem !important;
+      }
+
+
+}
+
+@media (max-width: 600px) {
     .projects {
-        max-height: 77rem;
+        max-height: 85rem;
     }
+
+    .projects.open {
+            max-height: 140rem;
+
+    }
+
 }

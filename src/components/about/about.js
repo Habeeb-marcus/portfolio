@@ -19,7 +19,7 @@ function About() {
             <div className="top-icons">
                 <span className="small-line"></span>
                 <h3>About Me</h3>
-                <span className="long-line"></span>
+                <span className="long-line about"></span>
             </div>
 
             <div className="about-cnt">

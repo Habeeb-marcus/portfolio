@@ -4,11 +4,11 @@ import './Contact.css'
 const Contact = () => {
 
     return (
-    <div className="contact-main">
+    <div className="contact-main" id="contact-main">
          <div className="top-icons">
                 <span className="small-line"></span>
                 <h3>Let us talk</h3>
-                <span className="long-line"></span>
+                <span className="long-line contact"></span>
         </div>
         <div className="contact-body">
             <p>Feel free to reach out to me if you have any question or if you'll like to create magic with me.</p>

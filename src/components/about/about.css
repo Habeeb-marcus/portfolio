@@ -7,7 +7,7 @@
 
 
 .about-main {
-    padding-bottom: 10.4rem;
+    padding-bottom: 8.4rem;
 }
 
 
@@ -39,6 +39,8 @@
 .my-stack {
     color: #fff;
     padding: 0 48px;
+        margin-top: 25px;
+
 }
 
 .small-line {
@@ -142,6 +144,18 @@
     }
 }
 
+@media (max-width:900px) {
+    .img-me {
+        height: 11rem;
+        width: 19rem;
+    }
+
+    .img-me img {
+        height: 11rem;
+        width: 16rem;
+    }
+}
+
 @media (max-width: 800px) {
     .about-cnt {
         flex-direction: column-reverse;
@@ -156,4 +170,10 @@
         left: 22rem;
         width: 9rem;
     }
+}
+
+@media (max-width: 600px) {
+       .my-stack {
+              margin-top: 30px;
+       }
 }

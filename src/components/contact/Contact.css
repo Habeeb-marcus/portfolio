@@ -21,13 +21,17 @@
 }
 
 form {
-    width: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .field {
     display: flex;
     flex-direction: column;
     margin-bottom: 38px;
+    width: 100%;
 }
 
 label {
@@ -95,11 +99,26 @@ button {
 
 @media (max-width: 1000px) {
     .contact-main {
-        background-size: 15 rem;
+        background-size: 15rem;
     }
 }
 @media (max-width: 800px) {
     .contact-main {
         background: none;
+    }
+}
+
+@media (max-width: 600px) {
+    input, textarea{
+        width: auto;
+    }
+
+    .contact-main {
+        padding-left: 0;
+    }
+
+    .about-main {
+            padding-bottom: 8.4rem;
+
     }
 }
