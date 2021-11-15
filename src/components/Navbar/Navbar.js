@@ -23,6 +23,16 @@ function Navbar() {
         }
     }
 
+    const showMenu = () => {
+        console.log('hamburger clicked');
+        const navig = document.querySelector('.navigation')
+        const mobMenu = document.querySelector('.menu-ul');
+        const menu = document.querySelector('.menu');
+        menu.classList.add('showMob')
+        mobMenu.classList.add('show-ul')
+        navig.classList.add('mob')
+    }
+
 
 
     window.addEventListener("scroll", showNav)
@@ -35,6 +45,8 @@ function Navbar() {
                    <a href="#app" >Habeeb Makusota</a> 
                 </h2>
 
+
+            <div className="navigation">
                 <div className="menu">
                     <ul className=" menu-ul d-flex" >
                         <li data-aos="fade down" data-aos-delay="100"  data-aos-easing="ease-in-out"><a href="#about-me">About Me</a></li>
@@ -44,9 +56,10 @@ function Navbar() {
                     </ul>
                 </div>
 
-                <div className="bars">
+                <div className="bars" onClick={showMenu}>
                     <i className="fas fa-bars"></i>
                 </div>
+            </div>
             </div>
         </nav>
     )

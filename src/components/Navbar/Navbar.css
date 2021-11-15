@@ -37,10 +37,27 @@
     align-items: center;
 }
 
+
+.menu.showMob {
+    display: flex;
+}
 .menu ul li a {
     text-decoration: none;
     color: #fff;
 }
+
+/* mobile navigation */
+
+.menu-ul.show-ul {
+    flex-direction: column;
+}
+
+.navig.mob {
+        display: flex;
+        flex-direction: column-reverse;
+}
+
+
 
 .menu ul li a:hover {
     text-decoration: underline;
