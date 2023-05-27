@@ -9,23 +9,43 @@ import Contact from './components/contact/Contact';
 function App() {
   return (
     <div className="App" id="app">
-      <Navbar/>
-      
+      <Navbar />
+
       <div>
-          <main>            
-            <Landing/>
-            <About/>
-            <Portfolio/>
-            <Contact/>
-          </main>
-          <aside>
-            <ul>
-                <a href="https://github.com/Habeeb-marcus"><i className="fab fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/habeeb-makusota-6893721a9/"><i className="fab fa-linkedin"></i></a>
-                <a href="https://www.instagram.com/hardedohyin/"><i className="fab fa-instagram"></i></a>
-                <a href="https://twitter.com/Harbeeybh"><i className="fab fa-twitter"></i></a>
-            </ul>
-          </aside>
+        <main>
+          <Landing />
+          <About />
+          <Portfolio />
+          <Contact />
+        </main>
+        <aside>
+          <ul>
+            <a
+              href="https://github.com/Habeeb-marcus"
+              target="_blank"
+              rel="noreferrer">
+              <i className="fab fa-github"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/habeeb-makusota-6893721a9/"
+              target="_blank"
+              rel="noreferrer">
+              <i className="fab fa-linkedin"></i>
+            </a>
+            <a
+              href="https://www.instagram.com/hardedohyin/"
+              target="_blank"
+              rel="noreferrer">
+              <i className="fab fa-instagram"></i>
+            </a>
+            <a
+              href="https://twitter.com/Harbeeybh"
+              target="_blank"
+              rel="noreferrer">
+              <i className="fab fa-twitter"></i>
+            </a>
+          </ul>
+        </aside>
       </div>
     </div>
   );
